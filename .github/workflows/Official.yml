@@ -34,6 +34,7 @@ on:
           - 'aarch64'
           - 'phicomm_k3'
           - 'x86_64'
+          - 'r66s'
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
@@ -44,7 +45,6 @@ on:
           - '8370C'
           - '8272CL'
           - '8171M'
-          - 'r66s'
       INFORMATION_NOTICE:
         description: 'Telegram或pushplus信息通知'
         required: true
